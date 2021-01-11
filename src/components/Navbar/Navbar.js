@@ -1,11 +1,12 @@
 import React from "react";
-import { Nav } from "./Navbar.elements";
-import { Container } from "../../globalStyles";
+import { Nav, NavbarContainer, NavLogo, NavIcon } from "./Navbar.elements";
 
 const Navbar = () => {
   return (
     <Nav>
-      <Container>adf</Container>
+      <NavbarContainer>
+        <NavLogo to="/"></NavLogo>
+      </NavbarContainer>
     </Nav>
   );
 };
